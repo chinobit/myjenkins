@@ -27,7 +27,7 @@ services:
             protocol: tcp
             mode: host
        dns:
-          - 172.31.0.2
+          - ec2-52-215-116-115.eu-west-1.compute.amazonaws.com
        volumes:
           - type: bind
             source: /home/fedora/jenkins
